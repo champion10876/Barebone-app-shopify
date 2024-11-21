@@ -43,10 +43,6 @@ if (config.host == null) {
 
 console.log(`AppBrige settings: config.apiKey [${config.apiKey}] config.host [${config.host}] config.forceRedirect [${config.forceRedirect}]`);
 
-// All Polaris compoments which you can copy the React snipets from. https://polaris.shopify.com/components
-// AppProvider is the base layout compoment. https://polaris.shopify.com/components/app-provider
-// See https://shopify.dev/apps/tools/app-bridge/getting-started/using-react
-// See https://polaris.shopify.com/components/app-provider 
 function App() {
   return (
     <Provider config={config}>
